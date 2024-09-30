@@ -13,7 +13,7 @@ Both keyboard-only and mouse-only interaction allow to adjust color values and p
 </li><li><b>RGB, HSL, HSV Modes:</b> Switch between different color models (RGB, HSV, HLS) using the r, h, and l keys.
 </li><li><b>	Interactive Sliders:</b> Use Tab to change active color channel and arrow keys and PageUp/PageDown to adjust the color channel values. Move all three sliders at the same time using the Up/Down arrow keys. The sliders are visualized as horizontal strips of colors. Hit Enter to confirm color selection and exit the application. 
 </li><li><b>Mouse Input:</b> Clicking inside the sliders adjusts the color values, while clicking in the upper large square with selected color confirms the color selection and exits the application.
-</li><li><b>Fullscreen Mode</b>: Pressing the f key switches to <b><i>TEXT-FREE</i><b> fullscreen mode.
+</li><li><b>Fullscreen Mode</b>: Pressing the f key switches to <b><i>TEXT-FREE</i></b> fullscreen mode.
 </li><li><b>Output:</b> Upon confirming a color with Enter or mouse click, the color is printed to stdout in both hex and RGB formats.
 </li><li><b>Color Name:</b> In addition to #RRGGBB and rgb(R,G,B) output the exact or nearest css3 color name is determined and printed.
 </li></ul>
