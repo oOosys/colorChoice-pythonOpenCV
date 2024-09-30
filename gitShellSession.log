@@ -1,0 +1,41 @@
+
+~ $ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /home/o/oOo/O@@/github/githubGit/colorChoice/.git/
+~ $ git add README.md
+~ $ git add colorChoice.py
+~ $ git commit -m "first commit"
+[master (root-commit) 2c9fd56] first commit
+ 2 files changed, 263 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 colorChoice.py
+~ $ git branch -M main
+~ $ git remote add origin https://github.com/oOosys/colorChoice.git
+~ $ git push -u origin main
+Username for 'https://github.com': oOosys
+Password for 'https://oOosys@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/oOosys/colorChoice.git/'
+~ $ git push -u origin main
+Username for 'https://github.com': oOosys
+Password for 'https://oOosys@github.com': 
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 4.38 KiB | 4.38 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/oOosys/colorChoice.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+~ $ 
