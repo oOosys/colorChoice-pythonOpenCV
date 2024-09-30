@@ -9,7 +9,8 @@ Interactive color choice/selection application built with OpenCV. It allows to v
 Both keyboard-only and mouse-only interaction allow to adjust color values and provides real-time feedback through a large area with chosen color showing which color will result from moving a slider to a new position by displaying this color in the slider strip.
 
 # Key Features:
-<ul><li><b>RGB, HSL, HSV Modes:</b> Switch between different color models (RGB, HSV, HLS) using the r, h, and l keys.
+<ul><li><b>TEXT- and ICON/BUTTON FREE</b> Fullscreen Mode</li>
+</li><li><b>RGB, HSL, HSV Modes:</b> Switch between different color models (RGB, HSV, HLS) using the r, h, and l keys.
 </li><li><b>	Interactive Sliders:</b> Use Tab to change active color channel and arrow keys and PageUp/PageDown to adjust the color channel values. Move all three sliders at the same time using the Up/Down arrow keys. The sliders are visualized as horizontal strips of colors. Hit Enter to confirm color selection and exit the application. 
 </li><li><b>Mouse Input:</b> Clicking inside the sliders adjusts the color values, while clicking in the upper large square with selected color confirms the color selection and exits the application.
 </li><li><b>Fullscreen Mode</b>: Pressing the f key switches to <b><i>TEXT-FREE</i><b> fullscreen mode.
