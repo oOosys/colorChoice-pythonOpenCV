@@ -4,7 +4,9 @@
 ![colorChoice Fullscreen](colorChoiceFullscreen.png "May the power of oOo be with you!")
 
 
-Interactive color choice/selection application built with OpenCV. It allows to visually select a color using RGB or HSV/HSL sliders and outputs the chosen color in both hexadecimal and RGB format to stdout along with exact or nearest css3 color name. 
+colorChoice is pure only about you and the colors. In Fullscreen mode there is nothing else, except colored strips showing all colors you can reach with next click or slider move, equipped with markers around the chosen color in all three color channels. 
+
+colorChoice is pure Python code using the OpenCV module. It allows to visually select a color using RGB or HSV/HSL sliders (you know the color mode from the color of the active slider color marker) and outputs the chosen color in both hexadecimal and RGB format to stdout along with exact or nearest css3 color name. 
 
 Both keyboard-only and mouse-only interaction allow to adjust color values and provides real-time feedback through a large area with chosen color showing which color will result from moving a slider to a new position by displaying this color in the slider strip.
 
@@ -20,4 +22,4 @@ Both keyboard-only and mouse-only interaction allow to adjust color values and p
 
 The pure Python application is build following the guidelines of the oOo approach to usage of own computer for private purposes and programming it, so don't be surprized to see unusual code structure you are encouraged to change in order to adapt the application and code to your own preferences. Ease of customization has a high priority according to the oOo guidelines, so all the apllication GUI shaping constant values are provided in the first lines of the code inviting to play around with them. Appropriate naming of variables makes the code hopefully self-explaining  and therefore not needing extensive documentation. 
 
-Why OpenCV and not Tkinter or pyQt or any other of the plenty GUI application libraries? I mean because it is so easy to show an IMAGE and if you think very deep about it, all applications come down to showing an image and getting user keyboard and mouse response to it. OpenCV makes it extremely easy to display an image on Screen ... see the code, build you next application using OpenCV. 
+Why OpenCV and not Tkinter or pyQt or any other of the plenty GUI application libraries? I mean because it is so easy to show an IMAGE and if you think very deep about it, all applications come down to showing an image and getting user keyboard and mouse response to it. OpenCV makes it extremely easy to display an image on Screen ... see the code, build your next custom application for own private usage using OpenCV. 
