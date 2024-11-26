@@ -4,7 +4,9 @@
 ![colorChoice Fullscreen](colorChoiceFullscreen.png "May the power of oOo be with you!")
 
 
-colorChoice is pure only about you and the colors. In Fullscreen mode there is nothing else, except colored strips showing all colors you can reach with next click or slider move, equipped with markers around the chosen color in all three color channels. 
+<b>Why colorChoice</b> if there are so many color selection dialogs and tools? The answer is: because there is none out there which provides a large area showing the selected color and except an old in Tcl written Tk using code there is none out there showing the very helpful information about currently selectable colors in the sliders (if you are aware there is one, please let me know, so that I can list it here). Maybe you have already noticed that color perceoption is highly dependent on the color area surrounding colors, so the larger the area with the selected color the more genuine the visual impression of it. 
+
+<b>colorChoice</b> is only about you and the colors. In Fullscreen mode there is nothing else, except colored strips showing all colors you can reach with next click or slider move, equipped with markers around the chosen color in all three color channels. 
 
 colorChoice is pure Python code using the OpenCV module. It allows to visually select a color using RGB or HSV/HSL sliders (you know the color mode from the color of the active slider color marker) and outputs the chosen color in both hexadecimal and RGB format to stdout along with exact or nearest css3 color name. 
 
