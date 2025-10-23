@@ -3,6 +3,7 @@
 ![colorChoice Windowed](colorChoiceWindowed.png "May the power of oOo be with you!")
 ![colorChoice Fullscreen](colorChoiceFullscreen.png "May the power of oOo be with you!")
 
+<b>NOTICE:</b> This project has bugs when changing the color model and ... OpenCV fullscreen collides with the Desktop zooming feature of Linux Mint Xfce, so it was replaced by colorChoice-PyQt6 working correctly and with one more color model and without issues with Desktop zooming. 
 
 <b>Why colorChoice</b> if there are so many color selection dialogs and tools? The answer is: because there is none out there which provides a large area showing the selected color and except an old in Tcl written Tk using code there is none out there showing the very helpful information about currently selectable colors in the sliders (if you are aware there is one, please let me know, so that I can list it here). Maybe you have already noticed that color perceoption is highly dependent on the color area surrounding colors, so the larger the area with the selected color the more genuine the visual impression of it. 
 
